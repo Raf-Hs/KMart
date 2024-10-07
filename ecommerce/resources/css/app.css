@@ -1,0 +1,30 @@
+body {
+    background-color: #f8f9fa; /* Fondo claro */
+}
+
+h1 {
+    font-size: 2.5rem; /* Tamaño de fuente grande */
+    font-weight: bold; /* Negrita */
+}
+
+.card {
+    border: 2px solid #007bff; /* Borde azul */
+    transition: transform 0.2s; /* Transición para hover */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Efecto de aumento al pasar el mouse */
+}
+
+.card-title {
+    font-size: 1.5rem; /* Tamaño de fuente del título */
+}
+
+.card-text {
+    color: #343a40; /* Color del texto */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Color de fondo azul */
+    border-color: #007bff; /* Color del borde */
+}
